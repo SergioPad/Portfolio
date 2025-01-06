@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,300italic,400italic,700,700italic);
+
+body {
+    font: 30px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 4px;  
+}
+
+
+.aboutme {
+    background-color: #ECECEC;
+}
+.container-fluid {
+    padding: 100px 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.bg-intro {
+    background-image: url('intro-bg.gif');
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg-w {
+    background-color: white;
+}
+
+.desc {
+    font-size: 16px;
+    color: black;
+}
+
+.me-intro {
+    padding-top: 10px;
+    text-align: center;
+    color: black;
+}
+
+.me-desc {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.me-pic {
+    width: 20%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-position: 10% 10%;
+    display: inline-block;
+}
+
+.who-am-i {
+    width: 30%;
+    font: 18px Oswald, sans-serif;
+    line-height: 1.2;
+    display: inline-block;
+    margin: auto;
+    margin-left: 25px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.medium {
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.col-sm-3 img {
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 20px;
+    vertical-align: center;
+}
+
+.rocket, .techo {
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
+
+.embrace {
+    text-align: left;
+    color: black;
+    position: relative;
+    width: 58.3%;
+    display: inline-block;
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 36%;
+    background-color: rgba(128,128,128,0.8);
+}
+
+.embrace1 {
+    top: 0;
+    bottom: 0;
+    width: 25%;
+    margin-left: 10%;
+}
+
+.rocket-desc, .techo-desc {
+    display: inline-block;
+    width: 25%;
+    text-align: left;
+    font: 40px Oswald, sans-serif;
+}
+
+.portfolio {
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+}
+
+.portfolio-desc {
+    text-align: center;
+    font: 40px Oswald, sans-serif;
+    width: 23%;
+    margin: auto;
+}
+
+.title {
+    font-size: 35px;
+}
+
+.desc {
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.process {
+    font-size: 14px;
+}
+
+.rocket-pic {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
+
+.media {
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.video1 {
+    margin-left: 10%;
+    width: 20%;
+    display: inline-block;
+}
+
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+ul {
+    font-size: 16px;
+}
